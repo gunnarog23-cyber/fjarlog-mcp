@@ -1,0 +1,17 @@
+[project]
+name = "fjarlog-mcp"
+version = "0.1.0"
+description = "MCP-þjónn og greiningar á fjárlögum ríkisins – félags- og húsnæðismál (málefnasvið 27–32)"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "matplotlib>=3.11.2",
+]

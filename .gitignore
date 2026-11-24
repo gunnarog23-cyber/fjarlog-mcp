@@ -1,0 +1,16 @@
+# Python-umhverfi og skyndiminni
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code og stýrikerfi
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Upprunalegu æfingaútgáfurnar af notebook-unum (ekki hluti af repo)
+_upprunalegt/
